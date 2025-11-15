@@ -22,7 +22,7 @@ function App() {
   return (
     <div className={`${darkMode ? 'bg-[#0f0f1e]' : 'bg-white'} transition-colors duration-300`}>
       <Navigation darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode} />
+      <Hero />
       <Features darkMode={darkMode} />
       <PropertyHighlights darkMode={darkMode} />
       <Gallery darkMode={darkMode} />

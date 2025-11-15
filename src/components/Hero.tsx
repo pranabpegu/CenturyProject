@@ -1,11 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 
-interface HeroProps {
-  darkMode: boolean;
-}
-
-export default function Hero({}: HeroProps) {
+export default function Hero() {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
